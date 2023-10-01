@@ -8,7 +8,7 @@ export const useDataStore = defineStore("data", {
         name: "滑鼠",
         cost: 200,
         description: "電競滑鼠rgb",
-        image: "/mouse.jpg",
+        image: "./mouse.jpg",
         num: 0,
       },
       {
@@ -16,7 +16,7 @@ export const useDataStore = defineStore("data", {
         name: "鍵盤",
         cost: 300,
         description: "老鍵盤",
-        image: "/keyboard.jpg",
+        image: "./keyboard.jpg",
         num: 1,
       },
       {
@@ -24,7 +24,7 @@ export const useDataStore = defineStore("data", {
         name: "車車",
         cost: 699,
         description: "lowrider",
-        image: "/lowrider.jpg",
+        image: "./lowrider.jpg",
         num: 2,
       },
       {
@@ -32,7 +32,7 @@ export const useDataStore = defineStore("data", {
         name: "curry",
         cost: 10,
         description: "YUMMY",
-        image: "/curry.jpg",
+        image: "./curry.jpg",
         num: 3,
       },
       {
@@ -40,7 +40,7 @@ export const useDataStore = defineStore("data", {
         name: "RTX-4090",
         cost: 2000,
         description: "好貴的",
-        image: "/rtx-4090.jpg",
+        image: "./rtx-4090.jpg",
         num: 4,
       },
       {
@@ -48,7 +48,7 @@ export const useDataStore = defineStore("data", {
         name: "firebird",
         cost: 300,
         description: "經典老車車",
-        image: "/pontiac-firebird.jpg",
+        image: "./pontiac-firebird.jpg",
         num: 5,
       },
       {
@@ -56,7 +56,7 @@ export const useDataStore = defineStore("data", {
         name: "貓貓",
         cost: 300,
         description: "貓貓笑你",
-        image: "/cat.jpg",
+        image: "./cat.jpg",
         num: 6,
       },
       {
@@ -64,7 +64,7 @@ export const useDataStore = defineStore("data", {
         name: "吉他",
         cost: 300,
         description: "Gibson les paul",
-        image: "/guitar.png",
+        image: "./guitar.png",
         num: 7,
       },
       {
@@ -72,7 +72,7 @@ export const useDataStore = defineStore("data", {
         name: "拉麵",
         cost: 300,
         description: "真香警報",
-        image: "/ramen.jpg",
+        image: "./ramen.jpg",
         num: 8,
       },
       {
@@ -80,7 +80,7 @@ export const useDataStore = defineStore("data", {
         name: "機機人",
         cost: 300,
         description: "掃地機機人",
-        image: "/robot.jpg",
+        image: "./robot.jpg",
         num: 9,
       },
       {
@@ -88,7 +88,7 @@ export const useDataStore = defineStore("data", {
         name: "特斯拉",
         cost: 300,
         description: "爆炸",
-        image: "/tesla.jpeg",
+        image: "./tesla.jpeg",
         num: 10,
       },
     ],
